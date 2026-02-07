@@ -1,0 +1,26 @@
+booot/
+  docker-compose.yml
+  .env.example
+  pyproject.toml
+  README.md
+  src/booot/
+    __init__.py
+    main.py
+    config.py
+    logging_setup.py
+    db.py
+    models.py
+    enums.py
+    seed.py
+    keyboards.py
+    permissions.py
+    services/
+      routing.py
+      tickets.py
+      announcements.py
+      reminders.py
+    handlers/
+      common.py
+      student.py
+      staff.py
+      superadmin.py
